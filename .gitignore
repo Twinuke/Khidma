@@ -22,3 +22,33 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables (keep secrets out of git)
+.env
+.env.local
+.env.*.local
+
+# Test coverage and tooling artifacts
+coverage
+.nyc_output
+
+# Linters and build caches
+.eslintcache
+.cache
+.turbo
+
+# Package manager/store artifacts
+.pnpm-store
+*.tgz
+
+# Windows/macOS cruft
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Visual Studio artifacts
+.vs/
+
+# Deployment platform artifacts (if used)
+.vercel
+.netlify
